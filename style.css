@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+
+}
+body{
+    font-family: "Poppins";
+}
+nav > div{
+    display: inline-block;
+    margin-right: 25%;
+}
+.navbar-container div img {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.navbar-container div .list{
+    position: absolute;
+    top: 9%;
+    right: 35%;
+    list-style: none;
+}
+.navbar-container div .list .list-item{
+     display: inline;
+     padding: 0px 20px;
+     font-size: 22px;
+     font-family: "Orbitron";
+}
+.navbar-container div ul :first-child {
+    font-weight: 1000;
+    border-bottom: 2px solid #000000;
+    
+   
+}
+.navbar-container .button-group{
+    position: absolute;
+    right: -14%;
+    top: 5%;
+}
+.button-group > * {
+    display: inline-block;
+} 
+.search-icon{
+    margin: 20px;
+    position: relative;
+    top: 10px;
+}
+.nav-button{
+     padding: 5px 45px;
+     border-radius: 10px;
+     font-size: 22px;
+     background-color: #ffffff;
+     color: #b4b4b4;
+     border: 2px solid #000000;
+     font-family: "Poppins";
+}
+
+.hero-container * {
+    display: inline-block;
+}
+.hero-container .hero-img{
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    left: 3%;
+    top: 20%;
+    background-size: cover;
+}
+.hero-container .star{
+    position: absolute;
+    right: 10%;
+    top: 27%;
+}
+.hero-container .globe{
+    position: absolute;
+    right: 45%;
+    top: 25%;
+}
+.hero-container .square{
+   position: absolute;
+   left: 10%;
+   top: 40%;
+   
+}
+.hero-container-right {
+    position: absolute;
+    top: 50%;
+}
+.hero-container-right .hero-heading{
+   font-size: 53px;
+   position: relative;
+   left: 42%;
+   font-family: "Orbitron";
+   transform: translateY(-60%);
+}
+.hero-container-right .hero-description{
+    position: relative;
+    left: 0%;
+    transform: translateY(90%);
+    width: 40%;
+    text-align: center;
+}
+.hero-description + div {
+    margin-top: 85px;
+   transform: translateX(220%);
+}
+.hero-container-right .button-email{
+    padding: 5px 35px;
+    color: #000000;
+    background-color: #ffffff;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: "Orbitron";
+    border-radius: 10px;
+}
+.hero-container-right .button-join{
+    padding: 5px 5px;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 20px;
+    font-family: "Orbitron";
+    border-radius: 10px;
+}
+.hero-container-right .contact-heading{
+    position: absolute;
+    top: 120%;
+    right: 30%;
+    font-size: 22px;
+    color: #575757;
+}
+.hero-container-right .icons{
+    position: absolute;
+    top: 140%;
+    right: 28%;
+    
+}
+
+
+
+
+
+
